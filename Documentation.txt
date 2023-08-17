@@ -1,0 +1,11 @@
+concepts used:
+sent_tokenize : This convertss the text into sentences based on punctuation marks and language rules
+word_tokenize : This converts sentence into words by seperating on spaces and punctuations
+countvectorizer : This creates a vector for the sentence/text. vector contains number of times a word is occured in the sentence .
+tfidfvectorizer : This creates a vector based on the number of times word occcured , how unique the word is i.e. the relevance of the word
+string.translate : this replaces the certain characters (here punctuation marks) with required character (here none)
+Porter Stemmer : this removes all the prefixes and suffixes
+WordNetLemmatizer : this converts the word into it's root word
+fit_transform : in this the model is first fitted on the model and immediatly data is transformed by the model
+cosine_similarity : cosine value of angle between the vectors , tells how to vetors are close to each other
+cosine_distance : it is just 1 - cosine_similarity
